@@ -1,0 +1,24 @@
+{
+  "name": "socialhub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "Javascript",
+    "Node",
+    "Express"
+  ],
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Areeba Farooqi",
+  "license": "ISC",
+  "description": "SocialHub is a full-featured social media platform for sharing posts, videos, comments, and playlists, designed for seamless interaction and content discovery.",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  }
+}
